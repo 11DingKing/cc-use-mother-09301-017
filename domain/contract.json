@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "分类评价抽检编排",
+  "source_context": "http://edu.people.com.cn/n1/2026/0924/c1006-40804945.html",
+  "actors": [
+    "监管团队",
+    "抽检专家",
+    "被抽高校"
+  ],
+  "states": [
+    "选样",
+    "冻结",
+    "分派",
+    "复核",
+    "整改"
+  ],
+  "invariants": [
+    "风险抽样",
+    "利益冲突",
+    "可复现随机",
+    "批次恢复"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09301-017-A",
+      "actor": "监管团队",
+      "state": "选样"
+    },
+    {
+      "case_id": "09301-017-B",
+      "actor": "被抽高校",
+      "state": "冻结"
+    }
+  ],
+  "tags": [
+    "audit-sampling",
+    "review-assignment"
+  ]
+}
